@@ -1,0 +1,51 @@
+.skills-section {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  border: 1px solid #f0f0f0;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.15);
+}
+
+.skill-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.skill-menu-card {
+  background-color: #f9f9f9;
+  border: none;
+}
+
+.category-btn {
+  width: 100%;
+  border-radius: 50px;
+  font-weight: 500;
+  
+}
+.transition-fade {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}

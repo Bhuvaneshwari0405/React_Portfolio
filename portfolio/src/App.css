@@ -1,0 +1,395 @@
+
+    body {
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assests/images/profile.jpg") center center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+    }
+
+    .section-title {
+      border-bottom: 2px solid #007bff;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      max-width: 180px;
+      border: 4px solid #007bff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    /* Cards */
+    .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    
+    /* Contact */
+    #contact a {
+      text-decoration: none;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ccc;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+
+    /* Skills section fix */
+    #skills {
+      color: #fff;
+    }
+
+    /* Certificates section fix */
+    #certificates {
+      color: #fff;
+    }
+
+    /* Achievements section */
+    #achievements {
+      background: #f5f7fa;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    #achievements .section-title {
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+      margin-bottom: 40px;
+      font-weight: bold;
+      font-size: 2rem;
+      display: inline-block;
+    }
+    .achievement-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      padding: 32px 24px;
+      margin-bottom: 40px;
+      border-left: 5px solid #007bff;
+    }
+    .achievement-card h5 {
+      color: #222;
+      font-weight: 600;
+    }
+    .achievement-card p {
+      color: #444;
+      font-size: 1.05rem;
+    }
+    .achievement-card img {
+      background: #f0f4f8;
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    @media (max-width: 767.98px) {
+      .achievement-card {
+        flex-direction: column !important;
+        padding: 20px 10px;
+      }
+      #achievements .section-title {
+        font-size: 1.5rem;
+      }
+    }
+
+    /* About section */
+    #about {
+      background: #fff;
+    }
+
+    /* Skills section */
+    #skills {
+      background: #f5f7fa;
+      color: #232946;
+    }
+
+    /* Projects section */
+    #projects {
+      background: #fff;
+      color: #232946;
+    }
+
+    /* Certificates section */
+    #certificates {
+      background: #fff;
+      color: #232946;
+    }
+    #certificates .section-title {
+      color: #007bff;
+    }
+    #certificates .card {
+      background: #f8fafc;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    #certificates .card-title {
+      color: #232946;
+    }
+
+    /* Contact section */
+    #contact {
+      background: #f5f7fa;
+    }
+    .contact-card {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+      padding: 2.5rem 2rem;
+    }
+    #contact .section-title {
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 24px;
+      font-weight: bold;
+    }
+    .contact-link {
+      color: #232946;
+      font-size: 1.08rem;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .contact-link:hover {
+      color: #007bff;
+      text-decoration: underline;
+    }
+    .btn-linkedin {
+      background: #0077b5;
+      color: #fff;
+      border: none;
+      font-weight: 500;
+      border-radius: 2rem;
+      padding: 0.5rem 1.3rem;
+      transition: background 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px rgba(0,119,181,0.08);
+    }
+    .btn-linkedin:hover {
+      background: #005983;
+      color: #fff;
+    }
+    .btn-github {
+      background: #232946;
+      color: #fff;
+      border: none;
+      font-weight: 500;
+      border-radius: 2rem;
+      padding: 0.5rem 1.3rem;
+      transition: background 0.2s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px rgba(35,41,70,0.08);
+    }
+    .btn-github:hover {
+      background: #171a2b;
+      color: #fff;
+    }
+    @media (max-width: 767.98px) {
+      .contact-card {
+        padding: 1.5rem 0.7rem;
+      }
+    }
+
+    /* About, Achievements, Certificates: white background */
+    #about, #achievements, #certificates {
+      background: #fff;
+      color: #232946;
+    }
+
+    /* Skills, Projects, Contact: light blue/gray background */
+    #skills, #projects, #contact {
+      background: #f5f7fa;
+      color: #232946;
+    }
+
+    #certificates .section-title, #achievements .section-title, #about .section-title, #skills .section-title, #projects .section-title, #contact .section-title {
+      color: #007bff;
+    }
+    #certificates .card {
+      background: #f8fafc;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    #certificates .card-title {
+      color: #232946;
+    }
+
+    /* Skills section enhancement */
+    #skills {
+      background: #f5f7fa;
+    }
+    .skill-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: none;
+    }
+    .skill-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    }
+    .skill-icon {
+      font-size: 2.5rem;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+    .skill-card h5 {
+      color: #232946;
+      font-weight: 600;
+    }
+    .skill-card ul li {
+      font-size: 1.08rem;
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    .enhanced-navbar {
+  background: rgba(157, 157, 157, 0.1); /* light transparent layer */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* soft shadow */
+  backdrop-filter: blur(12px); /* blur for glass effect */
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* subtle border */
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1000; /* stay above other elements */
+}
+
+    .navbar-brand {
+      background:white;
+      color: black !important;
+      border-radius: 2rem;
+      font-weight: bold;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+      transition: background 0.2s, color 0.2s, transform 0.2s;
+      box-shadow: 0 2px 8px rgba(0,123,255,0.10);
+    }
+    .navbar-brand:hover {
+      background: #121212;
+      color: #ffffff !important;
+      transform: scale(1.07);
+      box-shadow: 0 4px 16px rgba(0,123,255,0.18);
+    }
+    .navbar-nav .nav-link {
+      color: #fff !important;
+      font-weight: 500;
+      margin: 0 0.5rem;
+      transition: color 0.2s, background 0.2s, transform 0.2s;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+    }
+    .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+      background: #007bff;
+      color: #fff !important;
+      transform: scale(1.08);
+      box-shadow: 0 2px 8px rgba(0,123,255,0.10);
+    }
+    .btn-primary {
+      background: #007bff;
+      border: none;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+      transition: background 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary:hover {
+      background: #0056b3;
+      box-shadow: 0 4px 16px rgba(0,123,255,0.15);
+    }
+    @media (max-width: 991.98px) {
+      .enhanced-navbar {
+        backdrop-filter: blur(2px);
+      }
+      .navbar-brand {
+        font-size: 1.2rem;
+        padding: 0.3rem 1rem;
+      }
+    }
+
+    /* About section enhancement */
+    #about {
+      background: #fff;
+    }
+    .enhanced-profile-img {
+      width: 280px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 70%;
+      border: 5px solid #007bff;
+      box-shadow: 0 6px 32px rgba(0,123,255,0.10), 0 1.5px 8px rgba(0,0,0,0.07);
+      margin-bottom: 0.5rem;
+    }
+    .about-card {
+      background: #f8fafc;
+      border-radius: 18px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    }
+    .about-divider {
+      width: 60px;
+      border-top: 3px solid #007bff;
+      margin-left: 0;
+      opacity: 1;
+    }
+    .about-info li {
+      font-size: 1.08rem;
+      margin-bottom: 8px;
+      color: #232946;
+    }
+    .about-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .about-info a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 767.98px) {
+      .about-card {
+        padding: 1.5rem 1rem;
+      }
+      .enhanced-profile-img {
+        width: 150px;
+        height: 150px;
+      }
+    }
